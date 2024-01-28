@@ -1,0 +1,167 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150FB0E12B66EA5000C5FEE9 /* Derzha_Engine_FrameWork__Metal_.metal in Sources */ = {isa = PBXBuildFile; fileRef = 150FB0E02B66EA5000C5FEE9 /* Derzha_Engine_FrameWork__Metal_.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		150FB0DD2B66EA5000C5FEE9 /* Derzha Engine FrameWork (Metal).metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = "Derzha Engine FrameWork (Metal).metallib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150FB0E02B66EA5000C5FEE9 /* Derzha_Engine_FrameWork__Metal_.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Derzha_Engine_FrameWork__Metal_.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		150FB0D62B66EA5000C5FEE9 = {
+			isa = PBXGroup;
+			children = (
+				150FB0DF2B66EA5000C5FEE9 /* Derzha Engine FrameWork (Metal) */,
+				150FB0DE2B66EA5000C5FEE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		150FB0DE2B66EA5000C5FEE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				150FB0DD2B66EA5000C5FEE9 /* Derzha Engine FrameWork (Metal).metallib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		150FB0DF2B66EA5000C5FEE9 /* Derzha Engine FrameWork (Metal) */ = {
+			isa = PBXGroup;
+			children = (
+				150FB0E02B66EA5000C5FEE9 /* Derzha_Engine_FrameWork__Metal_.metal */,
+			);
+			path = "Derzha Engine FrameWork (Metal)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		150FB0DC2B66EA5000C5FEE9 /* Derzha Engine FrameWork (Metal) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150FB0E42B66EA5000C5FEE9 /* Build configuration list for PBXNativeTarget "Derzha Engine FrameWork (Metal)" */;
+			buildPhases = (
+				150FB0DB2B66EA5000C5FEE9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Derzha Engine FrameWork (Metal)";
+			productName = "Derzha Engine FrameWork (Metal)";
+			productReference = 150FB0DD2B66EA5000C5FEE9 /* Derzha Engine FrameWork (Metal).metallib */;
+			productType = "com.apple.product-type.metal-library";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		150FB0D72B66EA5000C5FEE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					150FB0DC2B66EA5000C5FEE9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 150FB0DA2B66EA5000C5FEE9 /* Build configuration list for PBXProject "Derzha Engine FrameWork (Metal)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 150FB0D62B66EA5000C5FEE9;
+			productRefGroup = 150FB0DE2B66EA5000C5FEE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				150FB0DC2B66EA5000C5FEE9 /* Derzha Engine FrameWork (Metal) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150FB0DB2B66EA5000C5FEE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150FB0E12B66EA5000C5FEE9 /* Derzha_Engine_FrameWork__Metal_.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		150FB0E22B66EA5000C5FEE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		150FB0E32B66EA5000C5FEE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		150FB0E52B66EA5000C5FEE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		150FB0E62B66EA5000C5FEE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		150FB0DA2B66EA5000C5FEE9 /* Build configuration list for PBXProject "Derzha Engine FrameWork (Metal)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150FB0E22B66EA5000C5FEE9 /* Debug */,
+				150FB0E32B66EA5000C5FEE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150FB0E42B66EA5000C5FEE9 /* Build configuration list for PBXNativeTarget "Derzha Engine FrameWork (Metal)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150FB0E52B66EA5000C5FEE9 /* Debug */,
+				150FB0E62B66EA5000C5FEE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 150FB0D72B66EA5000C5FEE9 /* Project object */;
+}
